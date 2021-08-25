@@ -13,7 +13,7 @@ namespace DotnetTemplate.Web
             SetUpLogger();
             try
             {
-                Log.Information("Starting up");
+                Log.Information("Starting up application");
                 CreateHostBuilder(args).Build().Run();
             }
             catch (Exception exception)
